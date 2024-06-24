@@ -11,7 +11,7 @@
 	<groupId>com.klu</groupId>
 	<artifactId>Emp-System</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>Emp-System</name>
 	<description>Building a Online Book Store</description>
 	<url/>
