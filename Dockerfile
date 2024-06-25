@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/Emp-System-0.0.1-SNAPSHOT.jar Emp-System-1.jar
+COPY --from=build /target/Emp-System-0.0.1-SNAPSHOT.jar Emp-System.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","Emp-System-1.jar"] 
+ENTRYPOINT ["java","-jar","Emp-System.jar"] 
